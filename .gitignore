@@ -38,5 +38,7 @@ testem.log
 .DS_Store
 Thumbs.db
 
-.nx/cache
+.nx/cache/*
 .angular
+/flexi-project-demo/.nx/cache
+/flexi-project-demo/.nx/cache/*
