@@ -1,0 +1,9 @@
+{
+  "name": "customer-domain",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/customer/domain/src",
+  "prefix": "flexi-project-demo",
+  "tags": ["domain:customer", "type:domain-logic"],
+  "projectType": "library",
+  "targets": {}
+}

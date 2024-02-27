@@ -1,0 +1,9 @@
+{
+  "name": "ui-common",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/shared/ui-common/src",
+  "prefix": "flexi-project-demo",
+  "tags": ["domain:shared", "type:ui"],
+  "projectType": "library",
+  "targets": {}
+}

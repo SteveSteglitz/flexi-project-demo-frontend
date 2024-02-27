@@ -1,0 +1,9 @@
+{
+  "name": "customer-feature-list",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/customer/feature-list/src",
+  "prefix": "flexi-project-demo",
+  "tags": ["domain:customer", "type:feature"],
+  "projectType": "library",
+  "targets": {}
+}
