@@ -24,6 +24,7 @@
       "@flexi-project-demo/customer-feature-list": [
         "libs/customer/feature-list/src/index.ts"
       ],
+      "@flexi-project-demo/shared-domain": ["libs/shared/domain/src/index.ts"],
       "@flexi-project-demo/ui-common": ["libs/shared/ui-common/src/index.ts"],
       "@flexi-project-demo/util-config": [
         "libs/shared/util-config/src/index.ts"

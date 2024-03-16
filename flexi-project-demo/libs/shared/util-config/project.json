@@ -2,7 +2,7 @@
   "name": "util-config",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/shared/util-config/src",
-  "prefix": "flexi-project-demo",
+  "prefix": "lib",
   "tags": ["domain:shared", "type:util"],
   "projectType": "library",
   "targets": {}

@@ -1,0 +1,24 @@
+.container {
+  margin: 2rem;
+  display: flex;
+}
+
+.left-div {
+  width: 70%;
+
+  .mat-mdc-row:hover {
+    background-color: #e8e5e5 !important;
+    cursor: pointer;
+
+    .mat-cell {
+      color: white
+    }
+
+    /*background-color: lightblue;*/
+  }
+
+  .right-div {
+    width: 30%;
+    /*background-color: lightgreen;*/
+  }
+}

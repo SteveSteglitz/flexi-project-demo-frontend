@@ -1,1 +1,23 @@
-<p>ui-common works!</p>
+<div style="margin: 2rem; width: 100%">
+
+    <form [formGroup]="dynamicForm()">
+      @for (info of infos(); track $index) {
+      @switch (info.fieldtype) {
+        @case ('string') {
+          <mat-form-field appearance="outline" style="width: 100%">
+            <mat-label>{{ info.fieldlabel }}</mat-label>
+            <input matInput [formControlName]="info.fieldname">
+          </mat-form-field>
+        }
+        @case ('boolean') {
+          <mat-form-field>
+            <mat-checkbox [formControlName]="info.fieldname">{{info.fieldlabel}}</mat-checkbox>
+          </mat-form-field>
+        }
+      }
+      } @empty {
+        No Infos
+      }
+    </form>
+
+</div>
